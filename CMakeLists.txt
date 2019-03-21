@@ -39,7 +39,7 @@ add_custom_command(
     COMMAND
         ${CBINDGEN} ${CMAKE_CURRENT_SOURCE_DIR}/rust_hello/
         -o ${CMAKE_CURRENT_BINARY_DIR}/binding/rust_hello.h
-    DEPENDS rust_hello/src/lib.rs)
+    DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/rust_hello/src/lib.rs)
 
 # Adds target for generating rust_hello.h
 add_custom_target(rust_hello-include DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/binding/rust_hello.h)
