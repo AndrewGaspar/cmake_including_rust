@@ -1,6 +1,6 @@
 #--------------------------------------------------------
 # The CMakeLists.txt for:
-# Author(s):                              cmoran
+# Author(s):                              AndrewGaspar
 #--------------------------------------------------------
 
 cmake_minimum_required (VERSION 3.10)
